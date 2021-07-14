@@ -7,6 +7,7 @@ O trabalho com o módulo Projeto de Ensino segue basicamente os seguintes passos
     - Submissão de uma Proposta de Projeto pelo coordenador (docente ou técnico administrativo)
     - Aprovação da proposta pelo coordenador do curso ao qual a proposta está vinculada
     - Distribuição da proposta para avaliação técnica pela diretoria do campus
+    - Avaliação técnica da proposta
     - Execução do Projeto de Ensino
     - Preenchimento de relatório final sobre o Projeto
     - Emissão de certificados/declarações
@@ -53,7 +54,7 @@ Submissão da proposta pelo coordenador
 Uma proposta de proposta de Projeto de Ensino pode ser submetida por docentes ou técnicos administrativos,
 dependendo do edital.
 
-Para os usuário docentes, o caminho é Portal do Docente → Ensino → Projetos → Projeto de Ensino → Submenter
+Para os usuário docentes, o caminho é Portal do Docente → Ensino → Projetos → Projeto de Ensino → Submeter
 Projeto de Ensino.
 
 
@@ -137,8 +138,8 @@ imagem a seguir:
 
 
 O coordenador de curso seleciona se a proposta será autorizada ou não além de fornecer um parecer. Ao clicar
-no botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é alterado de **Aguardando Aprovação do Coordenador de Curso**
-para **Enviado para análise do campus**:
+no botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é alterado de **Aguardando Aprovação
+do Coordenador de Curso** para **Enviado para análise do campus**:
 
 
 .. figure:: _static/img/usuario/autorizar-proposta.png
@@ -146,6 +147,48 @@ para **Enviado para análise do campus**:
     :class: imagem
 
     Formulário de análise de proposta.
+
+
+.. note::
+    Um email é enviado para notificar a direção do campus sobre a autorização submetida pelo coordenador de
+    curso.
+
+
+Distribuição para Avaliação Técnica pela Diretoria do Campus
+------------------------------------------------------------
+
+O diretor de ensino do campus pode distribuir a proposta para um técnico avaliador pelo caminho Portal do
+Docente → Chefia → Autorizações → Distribuir Projetos de Ensino. Uma listagem de distribuições é exibida na
+tela. O usuário pode visualizar as distribuições clicando no ícone |view| ou, distribuir a proposta para um
+técnico clicando no ícone |seta| conforme imagem a seguir:
+
+
+.. figure:: _static/img/usuario/link-distribuir-proposta.png
+    :align: center
+    :class: imagem
+
+    Listagem de distribuições de propostas para análise.
+
+
+No formulário seguinte o usuário digita o nome do o técnico responsável pela análise da proposta (campo
+autocompletar) e clica no botão **Confirmar**. Nesse momento o *Status* da proposta de projeto de ensino é alterada de
+**Enviado para análise do campus** para **Enviado para análise técnica**.
+
+
+.. figure:: _static/img/usuario/distribuir-proposta.png
+    :align: center
+    :class: imagem
+
+    Formulário de distribuição de proposta para análise técnica.
+
+
+.. note:: O técnico responsável é notificado por email
+
+
+Avaliação Técnica da Proposta
+-----------------------------
+
+O técnico responsável pode consultar a listagem de propostas distribuidas para serem analisadas através do
 
 
 .. |required| image:: _static/img/required.png
