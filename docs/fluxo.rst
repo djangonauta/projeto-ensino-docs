@@ -188,7 +188,28 @@ autocompletar) e clica no botão **Confirmar**. Nesse momento o *Status* da prop
 Avaliação Técnica da Proposta
 -----------------------------
 
-O técnico responsável pode consultar a listagem de propostas distribuidas para serem analisadas através do
+O técnico responsável pode consultar a listagem de propostas distribuidas para serem analisadas através do caminho
+Projeto Ensino → Analisar Projetos de Ensino. O usuário pode visualizar as propostas clicando no ícone |view|
+e analisar as propostas clicando no ícone |seta| conforme imagem a seguir:
+
+
+.. figure:: _static/img/usuario/lista-analise.png
+    :align: center
+    :class: imagem
+
+    Listagem de distribuições para análise.
+
+
+O técnico responsável seleciona se a proposta será autorizada ou não além de fornecer um parecer. Ao clicar no
+botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é alterado de **Enviado para análise
+técnicao** para **Análise técnica efetuada**:
+
+
+.. figure:: _static/img/usuario/form-analise.png
+    :align: center
+    :class: imagem
+
+    Formulário para análise de propostas de projeto de ensino pelo técnico responsável.
 
 
 .. |required| image:: _static/img/required.png

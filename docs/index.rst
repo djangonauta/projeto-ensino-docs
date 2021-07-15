@@ -17,11 +17,3 @@ Documentação do módulo Projeto de Ensino SIGAA IFPA.
 .. toctree::
    :maxdepth: 2
    :caption: Desenvolvedor
-
-
-Índices e Tabelas
-=================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
