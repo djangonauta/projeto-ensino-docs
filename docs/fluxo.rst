@@ -12,6 +12,10 @@ O trabalho com o módulo Projeto de Ensino segue basicamente os seguintes passos
     - Preenchimento de relatório final sobre o Projeto
     - Emissão de certificados/declarações
 
+.. note::
+    O acesso ao módulo do Projeto de Ensino é liberado para todos os usuários embora determinadas
+    funcionalidades necessitem de permissões especificas.
+
 
 Criação de Edital
 -----------------
@@ -75,6 +79,14 @@ no botão **Adicionar Local de Realização** antes de clicar no botão **Salvar
     :class: imagem
 
     Formulário para cadastro de proposta de projeto de ensino
+
+
+.. warning::
+    O campo **Edital** lista apenas editais cadastrados para o mesmo campus do usuário logado.
+
+
+.. warning::
+    O campo **Curso** lista apenas cursos referentes ao mesmo campus do usuário logado.
 
 
 .. note::
