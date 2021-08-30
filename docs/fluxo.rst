@@ -86,7 +86,12 @@ no botão **Adicionar Local de Realização** antes de clicar no botão **Salvar
 
 
 .. warning::
-    O campo **Curso** lista apenas cursos referentes ao mesmo campus do usuário logado.
+    O campo **Curso** lista apenas cursos referentes ao mesmo campus do edital.
+
+
+.. warning::
+    Os campos **Docente** e **Técnico Administrativo** no formulário *Membros do Projeto de Ensino* listam
+    apenas servidores do mesmo campus do edital cadastrado na proposta.
 
 
 .. note::
