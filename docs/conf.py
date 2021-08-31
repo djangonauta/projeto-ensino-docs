@@ -64,5 +64,4 @@ html_css_files = [
     'css/docs.css',
 ]
 
-
 numfig = True
