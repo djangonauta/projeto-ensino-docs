@@ -41,9 +41,7 @@ Em seguida o usuário deverá clicar no *link* **Cadastrar Edital** na seção *
 
     *Link* para acessar o formulário de cadastro de edital
 
-
-Os campos marcados com |required| no formulário são obrigátorios. Ao clicar no botão **Cadastrar Edital** o
-edital é cadastrado (caso que não apresente erros de validação):
+teste
 
 .. figure:: _static/img/usuario/form-cadastrar-edital.png
     :align: center
@@ -131,8 +129,8 @@ Aprovação pelo coordenador de curso
 -----------------------------------
 
 O coordenador do curso ao qual a proposta foi vínculada é notificado por email das submissões de propostas de
-projetos de ensino. o coordenador de curso pode acessar as propostas pendentes de avaliação pelo caminho Portal
-do Docente → Chefia → Autorizações → Autorizar Projetos de Ensino:
+projetos de ensino. O coordenador de curso pode acessar as propostas pendentes de avaliação pelo caminho
+Portal do Docente → Chefia → Autorizações → Autorizar Projetos de Ensino:
 
 
 .. figure:: _static/img/usuario/link-autorizar-proposta.png
@@ -174,10 +172,10 @@ do Coordenador de Curso** para **Enviado para análise do campus**:
 Distribuição para Avaliação Técnica pela Diretoria do Campus
 ------------------------------------------------------------
 
-O diretor de ensino do campus pode distribuir a proposta para um técnico avaliador pelo caminho Portal do
-Docente → Chefia → Autorizações → Distribuir Projetos de Ensino. Uma listagem de distribuições é exibida na
-tela. O usuário pode visualizar as distribuições clicando no ícone |view| ou, distribuir a proposta para um
-técnico clicando no ícone |seta| conforme imagem a seguir:
+Usuários com vínculo na diretoria de ensino do curso da proposta podem distribuí-la para um técnico avaliador
+pelo caminho Portal do Docente → Chefia → Autorizações → Distribuir Projetos de Ensino. Uma listagem de
+distribuições é exibida na tela. O usuário pode visualizar as distribuições clicando no ícone |view| ou,
+distribuir a proposta para um técnico clicando no ícone |seta| conforme imagem a seguir:
 
 
 .. figure:: _static/img/usuario/link-distribuir-proposta.png
