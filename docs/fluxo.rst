@@ -3,14 +3,14 @@ Fluxo de Trabalho
 
 O trabalho com o módulo Projeto de Ensino segue basicamente os seguintes passos:
 
-    - Criação de Edital pelo GESTOR_ENSINO
-    - Submissão de uma Proposta de Projeto pelo coordenador (docente ou técnico administrativo)
-    - Aprovação da proposta pelo coordenador do curso ao qual a proposta está vinculada
-    - Distribuição da proposta para avaliação técnica pela diretoria do campus
-    - Avaliação técnica da proposta
-    - Execução do Projeto de Ensino
-    - Preenchimento de relatório final sobre o Projeto
-    - Emissão de certificados/declarações
+- Criação de Edital pelo GESTOR_ENSINO
+- Submissão de uma Proposta de Projeto pelo coordenador (docente ou técnico administrativo)
+- Aprovação da proposta pelo coordenador do curso ao qual a proposta está vinculada
+- Distribuição da proposta para avaliação técnica pela diretoria do campus
+- Avaliação técnica da proposta
+- Execução do Projeto de Ensino
+- Preenchimento de relatório final sobre o Projeto
+- Emissão de certificados/declarações
 
 .. note::
     O acesso ao módulo do Projeto de Ensino é liberado para todos os usuários embora determinadas
@@ -24,6 +24,7 @@ Para acessar o formulário de criação de edital o usuário logado, com perfil 
 Projeto de Ensino:
 
 .. figure:: _static/img/usuario/projeto-ensino-modulo.png
+    :alt: Imagem
     :align: center
     :class: imagem
     
@@ -36,6 +37,7 @@ Projeto de Ensino:
 Em seguida o usuário deverá clicar no *link* **Cadastrar Edital** na seção **Edital** na aba **Cadastros**:
 
 .. figure:: _static/img/usuario/link-cadastrar-edital.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -44,6 +46,7 @@ Em seguida o usuário deverá clicar no *link* **Cadastrar Edital** na seção *
 teste
 
 .. figure:: _static/img/usuario/form-cadastrar-edital.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -61,6 +64,7 @@ Projeto de Ensino.
 
 
 .. figure:: _static/img/usuario/link-proposta-docente.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -68,11 +72,12 @@ Projeto de Ensino.
 
 
 O formulário de cadastro de proposta é um *wizard* formado por 7 sub-formulários. Os campos marcados com
-|required| no formulário são obrigátorios. É necessário adicionar pelo menos um **local de realização** clicando
-no botão **Adicionar Local de Realização** antes de clicar no botão **Salvar/Avançar**.
+|required| no formulário são obrigátorios. É necessário adicionar pelo menos um **local de realização**
+clicando no botão **Adicionar Local de Realização** antes de clicar no botão **Salvar/Avançar**.
 
 
 .. figure:: _static/img/usuario/form-proposta.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -105,6 +110,7 @@ Aprovação do Coordenador de Curso**.
 
 
 .. figure:: _static/img/usuario/submeter-proposta.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -119,6 +125,7 @@ Projetos → Projeto de Ensino → Meus Projetos de Ensino.
 
 
 .. figure:: _static/img/usuario/meus-projetos-ensino.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -134,6 +141,7 @@ Portal do Docente → Chefia → Autorizações → Autorizar Projetos de Ensino
 
 
 .. figure:: _static/img/usuario/link-autorizar-proposta.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -146,6 +154,7 @@ imagem a seguir:
 
 
 .. figure:: _static/img/usuario/lista-propostas-coordenador.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -154,10 +163,11 @@ imagem a seguir:
 
 O coordenador de curso seleciona se a proposta será autorizada ou não além de fornecer um parecer. Ao clicar
 no botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é alterado de **Aguardando Aprovação
-do Coordenador de Curso** para **Enviado para análise do campus**:
+do Coordenador de Curso** para **Enviado para Análise do Setor Pedagógico**:
 
 
 .. figure:: _static/img/usuario/autorizar-proposta.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -179,6 +189,7 @@ distribuir a proposta para um técnico clicando no ícone |seta| conforme imagem
 
 
 .. figure:: _static/img/usuario/link-distribuir-proposta.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -186,29 +197,35 @@ distribuir a proposta para um técnico clicando no ícone |seta| conforme imagem
 
 
 No formulário seguinte o usuário digita o nome do o técnico responsável pela análise da proposta (campo
-autocompletar) e clica no botão **Confirmar**. Nesse momento o *Status* da proposta de projeto de ensino é alterada de
-**Enviado para análise do campus** para **Enviado para análise técnica**.
+autocompletar) e clica no botão **Confirmar**. Nesse momento o *Status* da proposta de projeto de ensino é
+alterada de **Enviado para Análise do Setor Pedagógico** para **Distribuído para análise técnica-pedagógica**.
 
 
 .. figure:: _static/img/usuario/distribuir-proposta.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
     Formulário de distribuição de proposta para análise técnica.
 
 
-.. note:: O técnico responsável é notificado por email
+.. warning::
+    A listagem de técnicos responsáveis inclui apenas técnicos do mesmo campus do edital.
+
+
+.. note:: O técnico responsável é notificado por email.
 
 
 Avaliação Técnica da Proposta
 -----------------------------
 
-O técnico responsável pode consultar a listagem de propostas distribuidas para serem analisadas através do caminho
-Projeto Ensino → Analisar Projetos de Ensino. O usuário pode visualizar as propostas clicando no ícone |view|
-e analisar as propostas clicando no ícone |seta| conforme imagem a seguir:
+O técnico responsável pode consultar a listagem de propostas distribuidas para serem analisadas através do
+caminho Projeto Ensino → Analisar Projetos de Ensino. O usuário pode visualizar as propostas clicando no ícone
+|view| e analisar as propostas clicando no ícone |seta| conforme imagem a seguir:
 
 
 .. figure:: _static/img/usuario/lista-analise.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
@@ -216,16 +233,19 @@ e analisar as propostas clicando no ícone |seta| conforme imagem a seguir:
 
 
 O técnico responsável seleciona se a proposta será autorizada ou não além de fornecer um parecer. Ao clicar no
-botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é alterado de **Enviado para análise
-técnicao** para **Análise técnica efetuada**:
+botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é alterado de **Distribuído para análise
+técnica-pedagógica** para **Análise técnica realizada**:
 
 
 .. figure:: _static/img/usuario/form-analise.png
+    :alt: Imagem
     :align: center
     :class: imagem
 
     Formulário para análise de propostas de projeto de ensino pelo técnico responsável.
 
+
+.. note:: O formulário de avaliação técnica-pedagógica contém campos de parecer para cada tópico da proposta.
 
 .. |required| image:: _static/img/required.png
 .. |view| image:: _static/img/view.png
