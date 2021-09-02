@@ -175,8 +175,8 @@ do Coordenador de Curso** para **Enviado para Análise do Setor Pedagógico**:
 
 
 .. note::
-    Um email é enviado para notificar a direção do campus sobre a autorização submetida pelo coordenador de
-    curso.
+    Um email é enviado para notificar os usuários com perfil de chefia na unidade do curso vinculado a
+    proposta (diretoria de ensino).
 
 
 Distribuição para Avaliação Técnica pela Diretoria do Campus
@@ -232,9 +232,9 @@ caminho Projeto Ensino → Analisar Projetos de Ensino. O usuário pode visualiz
     Listagem de distribuições para análise.
 
 
-O técnico responsável seleciona se a proposta será autorizada ou não além de fornecer um parecer. Ao clicar no
-botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é alterado de **Distribuído para análise
-técnica-pedagógica** para **Análise técnica realizada**:
+O técnico responsável seleciona se a proposta será autorizada ou não além de fornecer um parecer para cada
+tópico da proposta. Ao clicar no botão **Confirmar** e a proposta foi autorizada, o *Status* da mesma é
+alterado de **Distribuído para análise técnica-pedagógica** para **Análise técnica realizada**:
 
 
 .. figure:: _static/img/usuario/form-analise.png
